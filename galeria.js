@@ -1,3 +1,5 @@
+// JSON contendo todos os dados
+
 galeria = {
   "algoritmos_e_programacao_de_computadores" : {
     titulo: "ALGORITMOS E PROGRAMAÇAO DE COMPUTADORES",
@@ -45,6 +47,8 @@ galeria = {
   }
 }
 
+
+// Código que pega o parâmetro da URL. Copie e cole no seu código
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
@@ -54,6 +58,8 @@ function getParameterByName(name, url) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+// Função que leva um item do JSON para a página
 function exibeDetalhes(item) {
   document.getElementById("imagem_detalhes").src = item.imagem;
   document.getElementById("titulo_detalhes").innerHTML = item.titulo;
@@ -62,5 +68,7 @@ function exibeDetalhes(item) {
   document.getElementById("editora_detalhes").innerHTML = item.editora;
   document.getElementById("ano_detalhes").innerHTML = item.ano;
 }
+
+// Seleciona o item do JSON a partir do código que veio da URL
 var codigo = getParameterByName('codigo');
 exibeDetalhes(galeria[codigo]);
