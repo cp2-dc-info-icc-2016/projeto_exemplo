@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+}
+
+#cabecalho {
+  width: 100%;
+}
+
+#banner {
+  height: 150px;
+  background-color: #dddddd;
+  font-size: 80pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#menu {
+  background-color: #bbbbbb;
+}
+
+#menu ul {
+  margin: 0px;
+}
+
+.item_menu {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.item_menu a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.item_menu a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.item_menu:hover {
+  background-color: #777777;
+}
+
+.item_menu:hover a{
+  color: #dddddd;
+  text-decoration: none;
+}
+
+#conteudo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: table;
+  background-color: #eeeeee;
+}
+
+#esquerda {
+  padding: 20px;
+  width: 25%;
+  display: table-cell;
+  margin: 25px;
+  vertical-align: top;
+}
+
+#esquerda ul li {
+  margin-top: 25px;
+}
+
+#direita {
+  padding: 20px;
+  width: 65%;
+  display: table-cell;
+  margin: 25px;
+  vertical-align: top;
+}
+
+.clear {
+  clear: both;
+}
+
+#rodape {
+  width: 100%;
+}
+
+#rodape_espaco {
+  background-color: #dddddd;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+#rodape_autor {
+  background-color: #bbbbbb;
+  text-align: right;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 10pt;
+}
+
+#galeria {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.item_galeria {
+  display: inline-block;;
+  width: 150px;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  margin: 10px;
+  padding: 10px;
+}
+
+.item_galeria img {
+  height: 200px;
+}
+
+#titulo_detalhes {
+  display: inline;
+  font-size: 40px;
+}
+
+label {
+  font-weight: bold;
+}
