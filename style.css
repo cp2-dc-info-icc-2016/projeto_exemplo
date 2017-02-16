@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  color: #333344;
 }
 
 /* cabeçalho e menu */
@@ -13,6 +14,7 @@ body {
   font-size: 80pt;
   text-align: center;
   padding: 20px;
+  color: #777788;
 }
 
 #menu {
@@ -31,12 +33,12 @@ body {
 }
 
 .item_menu a:link {
-  color: black;
+  color: #222233;
   text-decoration: none;
 }
 
 .item_menu a:visited {
-  color: black;
+  color: #222233;
   text-decoration: none;
 }
 
@@ -96,6 +98,7 @@ body {
   margin: 0px;
   padding: 10px;
   padding-left: 50px;
+  color: #222233;
 }
 
 #rodape_autor {
@@ -105,6 +108,7 @@ body {
   padding: 8px;
   font-size: 10pt;
   border: 1px solid #777788;
+  color: #222233;
 }
 
 /* galeria */
